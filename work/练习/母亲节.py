@@ -27,6 +27,7 @@ for i in range(800):
     t.penup()
     t.goto(-50, i - 220 + i * 2)
     t.pendown()
+    #写字
     t.write("妈妈，母亲节快乐", move=False, align='left', font=('Arial', 10, 'normal'))
 
     # =========2.图片更新到屏幕上=========
